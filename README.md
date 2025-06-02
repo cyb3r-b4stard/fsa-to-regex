@@ -1,6 +1,16 @@
 # Finite State Automaton to Regular Expression
 Converts text description of FSA to Regular expression.
 
+### Project Structure
+    .
+    ├── build                   # Compiled files 
+    ├── include                 # Header files
+    ├── src                     # Source files 
+    ├── examples                # Examples
+    ├── main.cpp
+    ├── CMakeLists.txt
+    └── README.md           
+
 ## Description
 
 Given an FSA description in the `input.txt`, program outputs regular expression that corresponds to the given FSA. The regular expression is built according to a slightly modified version of the **Kleene’s algorithm**.
